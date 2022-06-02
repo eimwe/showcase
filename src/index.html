@@ -1,22 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Каталог</title>
 </head>
 <body>
-  <figure>
-    <img src="./images/ghostbusters.webp" alt="Ghostbusters">
-    <figcaption>
-      <cite>
-        Ghostbusters:
-      </cite>
-      <blockquote>
-        We are ready to believe you!
-      </blockquote>
-    </figcaption>
-  </figure>
+  <header>
+    <div class="wrapper flex-container">
+      <button class="btn btn--menu" type="button">
+        <span class="sr-only">Меню</span>
+      </button>
+      <div class="logo">
+        <img src="./images/content/logo/company-logo.svg" alt="Экон Урфо - Энергосберегающие технологии">
+      </div>
+      <form class="search flex-container" name="search" action="#" method="GET">
+        <input class="search__field" type="search" name="searchbar" placeholder="Поиск товаров..">
+        <button class="btn btn--search" type="submit">
+          <span class="sr-only">Найти</span>
+        </button>
+      </form>
+      <nav class="user" aria-label="Personal area">
+        <ul class="flex-container">
+          <li>
+            <a class="user__delivery" href="#" title="Доставка">
+              <span class="sr-only">Доставка</span>
+            </a>
+          </li>
+          <li>
+            <a class="user__profile" href="#" title="Профиль">
+              <span class="sr-only">Профиль</span>
+            </a>
+          </li>
+          <li>
+            <a class="user__cart" href="#" title="Корзина">
+              <span class="sr-only">Корзина</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="feedback" aria-label="Customer service">
+        <ul class="flex-container">
+          <li>
+            <a href="#" title="Выбор города">
+              <span class="feedback__city">Екатеринбург</span>
+            </a>
+          </li>
+          <li>
+            <a href="tel:+74955063650" title="Свяжитесь с нами по телефону">
+              <span class="feedback__phone">+7 (495) 506-36-50</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:office@uconerfo.ru" title="Напишите нам на e-mail">
+              <span class="feedback__email">office@uconerfo.ru</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" title="Отправьте заявку на расчет">
+              <span class="feedback__request">Заявка на расчет</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" title="Наши контакты">
+              <span class="feedback__support">Контакты</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 </body>
 </html>
