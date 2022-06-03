@@ -37,6 +37,6 @@ Mobile-first catalog page.
 
 `npm start`
 
-### Switch to localized version in English
+## Attributions
 
-`git checkout enLocale`
+1. [Nicolas Gallagher](https://nicolasgallagher.com/) for the _normalize.css_ file that you can [get from this source](https://necolas.github.io/normalize.css/).
