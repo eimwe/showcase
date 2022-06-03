@@ -12,9 +12,10 @@
       <button class="btn btn--menu" type="button">
         <span class="sr-only">Меню</span>
       </button>
-      <div class="logo">
+      <picture class="logo">
+        <source media="(min-width: 900px)" srcset="./images/content/logo/company-logo-900w.svg">
         <img src="./images/content/logo/company-logo.svg" alt="Экон Урфо - Энергосберегающие технологии">
-      </div>
+      </picture>
       <form class="search flex-container" name="search" action="#" method="GET">
         <input class="search__field" type="search" name="searchbar" placeholder="Поиск товаров..">
         <button class="btn btn--search" type="submit">
@@ -257,8 +258,9 @@
       <div class="showcase__content">
         <form class="showcase__header flex-container" name="sorter" action="#" method="POST">
           <p class="showcase__selected">
-            <span class="js-filtered showcase__total">2394</span> товаров
+            <output class="showcase__total" name="filtered-results">2394</output> товаров
           </p>
+          <button class="btn btn--filter" type="button">Фильтры</button>
           <label class="showcase__sorting" for="sort-options">
             <select name="sort-items" id="sort-options">
               <option value="price-high">Цена: По возрастанию</option>
@@ -520,6 +522,7 @@
             </div>
           </div>
         </div>
+        <button class="btn btn--loader" type="button">Показать еще</button>
       </div>
     </div>
     <div class="seo">
@@ -708,7 +711,7 @@
       <div class="copyright">
         <ul class="grid-container">
           <li>
-            Copyright © 2014 - <span data-timeline="year">2020</span>
+            Copyright © 2014 - <output name="current-year">2020</output>
           </li>
           <li>
             <a href="#" title="Ознакомьтесь с правилами пользвания сайтом">
@@ -730,9 +733,10 @@
   </footer>
   <dialog class="modal modal--menu">
     <div class="modal__header">
-      <div class="logo">
+      <picture class="logo">
+        <source media="(min-width: 900px)" srcset="./images/content/logo/company-logo-900w.svg">
         <img src="./images/content/logo/company-logo.svg" alt="Экон Урфо - Энергосберегающие технологии">
-      </div>
+      </picture>
       <button class="btn btn--close" type="button">
         <span class="sr-only">Закрыть</span>
       </button>
