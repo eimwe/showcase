@@ -43,6 +43,14 @@ ul {
   list-style-type: none;
 }
 
+summary::marker,
+summary::-moz-list-bullet,
+summary::-webkit-details-marker {
+  display: none;
+  list-style-type: none;
+  list-style-image: none;
+}
+
 ::backdrop {
   --bg-backdrop: rgba(100, 100, 100, 0.5);
 }
