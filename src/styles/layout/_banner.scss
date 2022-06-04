@@ -1,0 +1,36 @@
+.banner {
+  max-height: 505px;
+  overflow: hidden;
+  color: var(--clr-white);
+  background-image: var(--bg-banner);
+
+  &__container {
+    place-items: center;
+    text-align: center;
+  }
+
+  &__details {
+    margin-block-start: 41px;
+    margin-block-end: 52px;
+  }
+
+  &__title {
+    margin-block: 0;
+    margin-block-end: 12px;
+    font-family: 'Euclid-SemiBold';
+    font-size: 28px;
+    line-height: 35.5px;
+  }
+
+  &__desc {
+    width: 80%;
+    margin-inline: auto;
+    margin-block: 0;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  &__img {
+    transform: scale(1.2) translateY(60px);
+  }
+}

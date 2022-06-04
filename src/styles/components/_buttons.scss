@@ -18,4 +18,26 @@
     vertical-align: super;
     background-image: url(../images/icons/control/search.svg);
   }
+
+  &--action {
+    width: 232px;
+    min-height: 54px;
+    border-radius: 2px;
+    font-family: 'Euclid-Medium';
+    font-size: var(--fs-small);
+    line-height: 54px;
+    color: var(--clr-primary);
+    background-color: var(--bg-white);
+
+    &::before {
+      content: '';
+      display: inline-block;
+      min-width: 32.39px;
+      min-height: 9.6px;
+      margin-right: 34.72px;
+      background-image: url(../images/icons/control/btn-action.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
 }
