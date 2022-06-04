@@ -22,7 +22,7 @@
   &--action {
     width: 232px;
     min-height: 54px;
-    border-radius: 2px;
+    border-radius: var(--radius-sm);
     font-family: 'Euclid-Medium';
     font-size: var(--fs-small);
     line-height: 54px;
