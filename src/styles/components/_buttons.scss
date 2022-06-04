@@ -1,0 +1,21 @@
+.btn {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+
+  &--menu {
+    min-width: 25px;
+    min-height: 18.31px;
+    margin-right: 24px;
+    background-image: url(../images/icons/control/menu-mobile.svg);
+    
+  }
+
+  &--search {
+    min-width: 17.25px;
+    min-height: 17.25px;
+    vertical-align: super;
+    background-image: url(../images/icons/control/search.svg);
+  }
+}

@@ -1,0 +1,28 @@
+.user {
+  order: 4;
+
+  &__nav {
+    gap: 23.7px;
+  }
+
+  &__item {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &--delivery {
+      display: none;  
+    }
+
+    &--profile {
+      min-width: 18.32px;
+      min-height: 19.87px;
+      background-image: url(../images/icons/header/profile.svg);
+    }
+
+    &--cart {
+      min-width: 18.67px;
+      min-height: 22.27px;
+      background-image: url(../images/icons/header/cart.svg);
+    }
+  }
+}

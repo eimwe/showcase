@@ -10,8 +10,8 @@
   <title>Каталог</title>
 </head>
 <body>
-  <header>
-    <div class="wrapper flex-container">
+  <header class="header">
+    <div class="header__container wrapper flex-container">
       <button class="btn btn--menu" type="button">
         <span class="sr-only">Меню</span>
       </button>
@@ -19,56 +19,56 @@
         <source media="(min-width: 900px)" srcset="./images/content/logo/company-logo-900w.svg">
         <img src="./images/content/logo/company-logo.svg" alt="Экон Урфо - Энергосберегающие технологии">
       </picture>
-      <form class="search flex-container" name="search" action="#" method="GET">
-        <input class="search__field" type="search" name="searchbar" placeholder="Поиск товаров..">
+      <form class="header__search flex-container" name="search" action="#" method="GET">
+        <input class="header__searchbar" type="search" name="searchbar" placeholder="Поиск товаров..">
         <button class="btn btn--search" type="submit">
           <span class="sr-only">Найти</span>
         </button>
       </form>
-      <nav class="user" aria-label="Personal area">
-        <ul class="flex-container">
-          <li>
-            <a class="user__delivery" href="#" title="Доставка">
+      <nav class="header__top user" aria-label="Personal area">
+        <ul class="user__nav flex-container">
+          <li class="user__item user__item--delivery">
+            <a href="#" title="Доставка">
               <span class="sr-only">Доставка</span>
             </a>
           </li>
-          <li>
-            <a class="user__profile" href="#" title="Профиль">
+          <li class="user__item user__item--profile">
+            <a href="#" title="Профиль">
               <span class="sr-only">Профиль</span>
             </a>
           </li>
-          <li>
-            <a class="user__cart" href="#" title="Корзина">
+          <li class="user__item user__item--cart">
+            <a href="#" title="Корзина">
               <span class="sr-only">Корзина</span>
             </a>
           </li>
         </ul>
       </nav>
-      <nav class="feedback" aria-label="Customer service">
-        <ul class="flex-container">
-          <li>
+      <nav class="header__bottom feedback" aria-label="Customer service">
+        <ul class="feedback__nav flex-container">
+          <li class="feedback__item feedback__item--city">
             <a href="#" title="Выбор города">
-              <span class="feedback__city">Екатеринбург</span>
+              <span class="feedback__title feedback__title--city">Екатеринбург</span>
             </a>
           </li>
-          <li>
+          <li class="feedback__item feedback__item--phone">
             <a href="tel:+74955063650" title="Свяжитесь с нами по телефону">
-              <span class="feedback__phone">+7 (495) 506-36-50</span>
+              <span class="feedback__title feedback__title--phone">+7 (495) 506-36-50</span>
             </a>
           </li>
-          <li>
+          <li class="feedback__item feedback__item--email">
             <a href="mailto:office@uconerfo.ru" title="Напишите нам на e-mail">
-              <span class="feedback__email">office@uconerfo.ru</span>
+              <span class="feedback__title feedback__title--email">office@uconerfo.ru</span>
             </a>
           </li>
-          <li>
+          <li class="feedback__item feedback__item--request">
             <a href="#" title="Отправьте заявку на расчет">
-              <span class="feedback__request">Заявка на расчет</span>
+              <span class="feedback__title feedback__title--request">Заявка на расчет</span>
             </a>
           </li>
-          <li>
+          <li class="feedback__item feedback__item--support">
             <a href="#" title="Наши контакты">
-              <span class="feedback__support">Контакты</span>
+              <span class="feedback__title feedback__title--support">Контакты</span>
             </a>
           </li>
         </ul>

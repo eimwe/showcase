@@ -1,0 +1,36 @@
+.header {
+  position: relative;
+  min-height: 71px;
+  padding-block-end: 54px;
+  background-color: var(--bg-white);
+
+  &__container {
+    flex-wrap: wrap;
+    padding-block: 14px;
+  }
+
+  &__search {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    flex-direction: row-reverse;
+    gap: 17.88px;
+    justify-content: start;
+    min-width: 100%;
+    min-height: 54px;
+    padding-inline: 20px;
+    background-color: var(--bg-search);
+  }
+
+  &__searchbar {
+    flex-grow: 1;
+    font-size: var(--fs-xs);
+    color: var(--clr-search);
+    background-color: transparent;
+
+    &:focus {
+      outline: none;
+      opacity: .3;
+    }
+  }
+}
