@@ -71,3 +71,30 @@ setRightValue();
 
 inputLeft.addEventListener('input', setLeftValue);
 inputRight.addEventListener('input', setRightValue);
+
+let filterShowBtn = document.querySelector('.btn--filter'),
+    filterSubmitBtn = document.querySelector('.btn--submit'),
+    filterModal = document.querySelector('.sidebar');
+
+/**
+ * @function displayFilter
+ * @description shows/hides filter modal depending
+ * on whether it's shown or hidden upon 'click' event
+ * @param {click} event
+ * @returns {undefined}
+ */
+const displayFilter = (event) => {
+
+  if (event.target == filterSubmitBtn) {
+    event.preventDefault();
+  }
+
+  if (filterModal.classList.contains('sidebar--open')) {
+    filterModal.classList.toggle('sidebar--open');
+  } else {
+    filterModal.classList.add('sidebar--open');
+  }
+}
+
+filterShowBtn.addEventListener('click', displayFilter);
+filterSubmitBtn.addEventListener('click', displayFilter);

@@ -578,20 +578,20 @@
       </p>
     </div>
   </main>
-  <footer>
+  <footer class="footer">
     <div class="wrapper">
-      <div class="grid-container">
-        <div class="contacts">
+      <div class="footer__top grid-container">
+        <div class="footer__contacts">
           <div class="logo">
             <img src="./images/content/logo/company-logo.svg" alt="Экон Урфо - Энергосберегающие технологии">
           </div>
-          <dl class="contacts__phone">
-            <dt class="contacts__title">
+          <dl class="footer__contact footer__contact--phone">
+            <dt class="footer__subheading">
               <a href="tel:+74955063650" title="Свяжитесь с нами по телефону">
                 <span class="feedback__phone feedback__phone--footer">+7 (495) 506-36-50</span>
               </a>
             </dt>
-            <dd class="flex-container">
+            <dd class="footer__container flex-container">
               <p>
                 <span>Пн-Пт:</span>
                 <span>Сб-Вс:</span>
@@ -602,35 +602,35 @@
               </p>
             </dd>
           </dl>
-          <a class="contacts__email" href="mailto:office@uconerfo.ru" title="Напишите нам на e-mail">
+          <a class="footer__contact footer__contact--email" href="mailto:office@uconerfo.ru" title="Напишите нам на e-mail">
             <span class="feedback__email feedback__email--footer">office@uconerfo.ru</span>
           </a>
-          <dl class="contacts__socials">
-            <dt class="contacts__title">
+          <dl class="footer__contact footer__contact--socials">
+            <dt class="footer__subheading">
               Мы в сети
             </dt>
             <dd>
               <ul class="social flex-container">
-                <li>
+                <li class="social__link social__link--vk">
                   <a href="#" title="Добавляйтесь в нашу группу в VK">
-                    <span class="social__link social__link--vk">ВКонтакте</span>
+                    ВКонтакте
                   </a>
                 </li>
-                <li>
+                <li class="social__link social__link--insta">
                   <a href="#" title="Подпишитесь на нас в Instagram">
-                    <span class="social__link social__link--insta">Instagram</span>
+                    Instagram
                   </a>
                 </li>
               </ul>
             </dd>
           </dl>
         </div>
-        <nav class="suggestions grid-container" aria-label="Secondary">
+        <nav class="footer__suggestions grid-container" aria-label="Secondary">
           <dl>
-            <dt class="suggestions__title">
+            <dt class="footer__subheading footer__subheading--suggestion">
               Категории продукции
             </dt>
-            <dd class="suggestions__links">
+            <dd class="footer__group">
               <ul>
                 <li>
                   <a href="#">Трубчатые радиаторы</a>
@@ -669,10 +669,10 @@
             </dd>
           </dl>
           <dl>
-            <dt class="suggestions__title">
+            <dt class="footer__subheading footer__subheading--suggestion">
               Категории продукции
             </dt>
-            <dd class="suggestions__links">
+            <dd class="footer__group">
               <ul>
                 <li>
                   <a href="#">Трубчатые радиаторы</a>
@@ -711,10 +711,10 @@
             </dd>
           </dl>
           <dl>
-            <dt class="suggestions__title">
+            <dt class="footer__subheading footer__subheading--suggestion">
               Информация
             </dt>
-            <dd class="suggestions__links">
+            <dd class="footer__group">
               <ul>
                 <li>
                   <a href="#" title="Узнайте о нас">О компании</a>
@@ -742,8 +742,8 @@
           </dl>
         </nav>
       </div>
-      <div class="copyright">
-        <ul class="grid-container">
+      <div class="footer__bottom">
+        <ul class="footer__copyright grid-container">
           <li>
             Copyright © 2014 - <output name="current-year">2020</output>
           </li>
@@ -757,7 +757,7 @@
               Обработка персональной информации
             </a>
           </li>
-          <li class="flex-container">
+          <li class="footer__devinfo flex-container">
             <p>Разработано</p>
             <img src="./images/content/logo/dev-logo.svg" alt="Request Design">
           </li>

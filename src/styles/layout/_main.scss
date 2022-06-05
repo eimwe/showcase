@@ -21,6 +21,10 @@
     background-color: var(--bg-sidebar);
   }
 
+  &__container {
+    position: relative;
+  }
+
   &__selected {
     position: absolute;
     top: -50px;
