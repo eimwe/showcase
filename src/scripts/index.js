@@ -1,4 +1,5 @@
 import '../styles/style.scss';
+import { menuModal } from './modalMenu.js';
 
 let inputLeft = document.getElementById('input-left'),
     inputRight = document.getElementById('input-right'),
@@ -98,3 +99,16 @@ const displayFilter = (event) => {
 
 filterShowBtn.addEventListener('click', displayFilter);
 filterSubmitBtn.addEventListener('click', displayFilter);
+
+/**
+ * Variable for a menu button
+ * @member {HTMLElement}
+ */
+ let menuButton = document.querySelector('.btn--menu');
+
+ /**
+  * Shows menu modal
+  * @listens click
+  * @fires menuModal.showModal
+  */
+ menuButton.addEventListener('click', () => menuModal.showModal());
