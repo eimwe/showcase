@@ -90,4 +90,31 @@
     background-size: 20px;
     background-position: center;
   }
+
+  &--filter {
+    font-family: 'Euclid-Medium';
+    line-height: 30px;
+    letter-spacing: 0.02em;
+
+    &::before {
+      content: '';
+      display: inline-block;
+      min-width: 24px;
+      min-height: 24px;
+      margin-right: 9px;
+      vertical-align: text-bottom;
+      background-image: url(../images/icons/control/filter.svg);
+      background-size: cover;
+    }
+  }
+
+  &--loader {
+    display: block;
+    margin-inline: auto;
+    font-family: 'Euclid-Medium';
+    font-size: var(--fs-small);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+  }
 }

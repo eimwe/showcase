@@ -102,7 +102,7 @@
         </li>
       </ol>
     </nav>
-    <p class="heading">
+    <p class="showcase__heading">
       Отопительное оборудование
     </p>
     <div class="showcase__container grid-container">
@@ -296,14 +296,13 @@
             <output class="showcase__total" name="filtered-results">2394</output> товаров
           </p>
           <button class="btn btn--filter" type="button">Фильтры</button>
-          <label class="showcase__sorting" for="sort-options">
-            <select name="sort-items" id="sort-options">
-              <option value="price-high">Цена: По возрастанию</option>
-              <option value="price-low">Цена: По убыванию</option>
-            </select>
-          </label>
+          <select class="showcase__sorting" name="sort-items" id="sort-options" tabindex="2">
+            <option value="" hidden>Сортировка</option>
+            <option value="price-high">Цена: По возрастанию</option>
+            <option value="price-low">Цена: По убыванию</option>
+          </select>
         </form>
-        <div class="showcase__items" aria-live="polite">
+        <div class="showcase__items grid-container" aria-live="polite">
           <div class="card">
             <figure class="card__image grid-container">
               <img src="./images/content/catalog/heater-1.png" alt="Биметаллический радиатор Royal Thermo Indigo Super">
