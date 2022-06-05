@@ -1,0 +1,84 @@
+.card {
+  position: relative;
+  background-color: var(--bg-white);
+
+  &__image {
+    grid-template-rows: min-content;
+    gap: 10px;
+    padding: 14px 14px 0 14px;
+    margin: 0;
+  }
+
+  &__title {
+    font-family: 'Euclid-Medium';
+    font-size: var(--fs-xs);
+  }
+
+  &__action {
+    justify-content: space-between;
+    padding-left: 14px;
+    margin-top: 20px;
+  }
+
+  &__price {
+    font-family: 'Euclid-SemiBold';
+    line-height: 1.1;
+
+    &::after {
+      content: '₽';
+      vertical-align: top;
+      font-family: 'Euclid-Medium';
+      font-size: calc(var(--fs-mini) + 0.0625rem);
+    }
+
+    &--old {
+      position: relative;
+      margin-right: auto;
+      margin-left: 12.46px;
+      font-family: 'Euclid-Medium';
+      font-size: calc(var(--fs-mini) + 0.125rem);
+      line-height: 1;
+
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 1px;
+        right: -4px;
+        min-width: 50px;
+        min-height: 20px;
+        background-image: url(../images/icons/card/old-price.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      &::after {
+        font-size: calc(var(--fs-xs) / 2);
+      }
+    }
+  }
+
+  &__discount {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 80px;
+    min-height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Euclid-Medium';
+    font-size: calc(var(--fs-mini) + 0.125rem);
+    color: var(--clr-white);
+    background-color: var(--bg-discount);
+
+    &::before {
+      content: '';
+      display: inline-block;
+      min-width: 11.47px;
+      min-height: 12.29px;
+      margin-right: 9px;
+      background-image: url(../images/icons/card/discount.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
