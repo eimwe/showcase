@@ -117,4 +117,12 @@
     text-underline-offset: 4px;
     text-decoration-thickness: 2px;
   }
+
+  &--close {
+    align-self: start;
+    min-width: 17.73px;
+    min-height: 17.63px;
+    background-image: url(../images/icons/control/close.svg);
+    transform: translateX(-4px);
+  }
 }

@@ -766,7 +766,7 @@
     </div>
   </footer>
   <dialog class="modal modal--menu">
-    <div class="modal__header">
+    <div class="modal__header flex-container">
       <picture class="logo">
         <source media="(min-width: 900px)" srcset="./images/content/logo/company-logo-900w.svg">
         <img src="./images/content/logo/company-logo.svg" alt="Экон Урфо - Энергосберегающие технологии">
@@ -778,43 +778,43 @@
     <nav class="modal__nav" aria-label="Menu">
       <ul>
         <li class="modal__navlink">
-          <details>
-            <summary>Отопительное оборудование</summary>
-            <ul class="modal__subnav">
-              <li>
-                <a class="modal__subnavlink" href="#" title="Просмоотреть товары в категории Радиаторы отопления">
+          <details class="modal__accordion">
+            <summary class="modal__switch flex-container">Отопительное оборудование</summary>
+            <ul class="modal__subnav modal__subnav--accordion">
+              <li class="modal__subnavlink modal__subnavlink--accordion">
+                <a href="#" title="Просмоотреть товары в категории Радиаторы отопления">
                   Радиаторы отопления
                 </a>
               </li>
-              <li>
-                <a class="modal__subnavlink" href="#" title="Просмоотреть товары в категории Конвекторы отопления">
+              <li class="modal__subnavlink modal__subnavlink--accordion">
+                <a href="#" title="Просмоотреть товары в категории Конвекторы отопления">
                   Конвекторы отопления
                 </a>
               </li>
-              <li>
-                <a class="modal__subnavlink" href="#" title="Просмоотреть товары в категории Полотенцесушители">
+              <li class="modal__subnavlink modal__subnavlink--accordion">
+                <a href="#" title="Просмоотреть товары в категории Полотенцесушители">
                   Полотенцесушители
                 </a>
               </li>
-              <li>
-                <a class="modal__subnavlink" href="#" title="Просмоотреть товары в категории Арматура для радиаторов и конвектеров">
+              <li class="modal__subnavlink modal__subnavlink--accordion">
+                <a href="#" title="Просмоотреть товары в категории Арматура для радиаторов и конвектеров">
                   Арматура для радиаторов и конвектеров
                 </a>
               </li>
             </ul>
           </details>
         </li>
-        <li class="modal__navlink">
+        <li class="modal__navlink modal__navlink--faucet">
           <a class="modal__link" href="#" title="Просмоотреть товары в категории Комплектация объектов сантехникой">
             Комплектация объектов сантехникой
           </a>
         </li>
-        <li class="modal__navlink">
+        <li class="modal__navlink modal__navlink--sanitizer">
           <a class="modal__link" href="#" title="Просмоотреть товары в категории Дозаторы антисептика и стойки для диспенсера">
             Дозаторы антисептика и стойки для диспенсера
           </a>
         </li>
-        <li class="modal__navlink">
+        <li class="modal__navlink modal__navlink--shower">
           <a class="modal__link" href="#" title="Просмоотреть товары в категории Водосберегающая сантехника">
             Водосберегающая сантехника
           </a>
@@ -823,33 +823,33 @@
     </nav>
     <nav class="modal__subnav" aria-label="Submenu">
       <ul>
-        <li>
-          <a class="modal__subnavlink" href="#" title="Отправиться в тур по нашим производственным цехам">
+        <li class="modal__subnavlink">
+          <a href="#" title="Отправиться в тур по нашим производственным цехам">
             Наше производство
           </a>
         </li>
-        <li>
-          <a class="modal__subnavlink" href="#" title="Ознакомиться со списком уже собранных под ключ изделий">
+        <li class="modal__subnavlink">
+          <a href="#" title="Ознакомиться со списком уже собранных под ключ изделий">
             Готовые решения
           </a>
         </li>
-        <li>
-          <a class="modal__subnavlink" href="#" title="Узнать больше о нашей компании">
+        <li class="modal__subnavlink">
+          <a href="#" title="Узнать больше о нашей компании">
             О компании
           </a>
         </li>
-        <li>
-          <a class="modal__subnavlink" href="#" title="Выбрать удобный способ доставки и оплаты">
+        <li class="modal__subnavlink">
+          <a href="#" title="Выбрать удобный способ доставки и оплаты">
             Доставка и оплата
           </a>
         </li>
-        <li>
-          <a class="modal__subnavlink" href="#" title="Просмотреть наши сертификаты в галерее">
+        <li class="modal__subnavlink">
+          <a href="#" title="Просмотреть наши сертификаты в галерее">
             Сертификаты
           </a>
         </li>
-        <li>
-          <a class="modal__subnavlink" href="#" title="Получить последнюю информацию о нас">
+        <li class="modal__subnavlink">
+          <a href="#" title="Получить последнюю информацию о нас">
             Новости
           </a>
         </li>
