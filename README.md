@@ -39,4 +39,5 @@ Mobile-first catalog page.
 
 ## Attributions
 
-1. [Nicolas Gallagher](https://nicolasgallagher.com/) for the _normalize.css_ file that you can [get from this source](https://necolas.github.io/normalize.css/).
+1. [Nicolas Gallagher](https://nicolasgallagher.com/) for the _normalize.css_ file that you can [get from this source](https://necolas.github.io/normalize.css/);
+2. All contributors and maintainers of the [dialog-polyfill.js](https://github.com/GoogleChrome/dialog-polyfill).
