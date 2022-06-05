@@ -18,20 +18,36 @@
   --clr-primary: #2b2e34;
   --clr-search: #73737b;
   --clr-white: #fff;
+  --clr-unchecked: #7e838c;
 
   /*Background colors*/
   --bg-primary: #fbfbfb;
+  --bg-sidebar: #f4f4f4;
   --bg-white: #fff;
   --bg-search: #f6f6f6;
   --bg-banner: linear-gradient(180deg, #1dbcd2 0%, #3edcf2 100%);
   --bg-range-track: #dee1e8;
   --bg-range-progress: #38d3e8;
   --bg-range-thumb: #38d3e8;
+  --bg-btn-submit: #38d3e8;
+  --bg-btn-reset: #7e838c;
+  --bg-check-red: #ff6060;
+  --bg-check-yellow: #ffdc60;
+  --bg-check-green: #72e191;
+  --bg-check-blue: #6070ff;
+  --bg-check-violet: #a660ff;
+  --bg-check-pink: #ff60ac;
+  --bg-check-beige: #eec3ab;
+  --bg-check-white: #fff;
+  --bg-check-black: #292929;
+  --bg-check-grey: #9d9d9d;
 
   /*Drop shadows*/
   --banner-shadow: drop-shadow(-50px 50px 100px rgba(56, 179, 197, 0.3));
+  --check-shadow: drop-shadow(2.51333px 8.79667px 12.5667px rgba(142, 148, 170, 0.15));
 
   /*Border radius*/
   --radius-sm: 2px;
   --radius-lg: 8px;
+  --radius-circle: 50%;
 }

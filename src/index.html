@@ -107,7 +107,7 @@
     </p>
     <div class="showcase__container grid-container">
       <aside class="sidebar">
-        <div class="sidebar__header flex-container">
+        <div class="sidebar__header">
           <p class="sidebar__title">Фильтры</p>
         </div>
         <form class="filter" id="filter" name="filter" method="POST" action="#">
@@ -244,48 +244,48 @@
               <legend class="sr-only">Выберите одну или несколько опций в категории Цвет</legend>
               <div class="filter__option flex-container">
                 <input class="filter__check filter__check--color" type="checkbox" name="red" id="red" checked>
-                <label class="filter__checkname" for="red">Красный</label>
+                <label class="filter__checkname filter__checkname--color filter__checkname--red" for="red">Красный</label>
               </div>
               <div class="filter__option flex-container">
                 <input class="filter__check filter__check--color" type="checkbox" name="yellow" id="yellow">
-                <label class="filter__checkname" for="yellow">Желтый</label>
+                <label class="filter__checkname filter__checkname--color filter__checkname--yellow" for="yellow">Желтый</label>
               </div>
               <div class="filter__option flex-container">
                 <input class="filter__check filter__check--color" type="checkbox" name="green" id="green">
-                <label class="filter__checkname" for="green">Зеленый</label>
+                <label class="filter__checkname filter__checkname--color filter__checkname--green" for="green">Зеленый</label>
               </div>
               <div class="filter__option flex-container">
                 <input class="filter__check filter__check--color" type="checkbox" name="blue" id="blue">
-                <label class="filter__checkname" for="blue">Синий</label>
+                <label class="filter__checkname filter__checkname--color filter__checkname--blue" for="blue">Синий</label>
               </div>
               <div class="filter__option flex-container">
                 <input class="filter__check filter__check--color" type="checkbox" name="violet" id="violet">
-                <label class="filter__checkname" for="violet">Фиолетовый</label>
+                <label class="filter__checkname filter__checkname--color filter__checkname--violet" for="violet">Фиолетовый</label>
               </div>
               <div class="filter__option flex-container">
                 <input class="filter__check filter__check--color" type="checkbox" name="pink" id="pink">
-                <label class="filter__checkname" for="pink">Розовый</label>
+                <label class="filter__checkname filter__checkname--color filter__checkname--pink" for="pink">Розовый</label>
               </div>
               <div class="filter__option flex-container">
                 <input class="filter__check filter__check--color" type="checkbox" name="beige" id="beige">
-                <label class="filter__checkname" for="beige">Бежевый</label>
+                <label class="filter__checkname filter__checkname--color filter__checkname--beige" for="beige">Бежевый</label>
               </div>
               <div class="filter__option flex-container">
                 <input class="filter__check filter__check--color" type="checkbox" name="white" id="white">
-                <label class="filter__checkname" for="white">Белый</label>
+                <label class="filter__checkname filter__checkname--color filter__checkname--white" for="white">Белый</label>
               </div>
               <div class="filter__option flex-container">
                 <input class="filter__check filter__check--color" type="checkbox" name="black" id="black">
-                <label class="filter__checkname" for="black">Черный</label>
+                <label class="filter__checkname filter__checkname--color filter__checkname--black" for="black">Черный</label>
               </div>
               <div class="filter__option flex-container">
                 <input class="filter__check filter__check--color" type="checkbox" name="grey" id="grey">
-                <label class="filter__checkname" for="grey">Серый</label>
+                <label class="filter__checkname filter__checkname--color filter__checkname--grey" for="grey">Серый</label>
               </div>
             </fieldset>
           </details>
         </form>
-        <div class="filter__btns">
+        <div class="filter__btns flex-container">
           <button class="btn btn--submit" form="filter" type="submit">Применить</button>
           <button class="btn btn--reset" form="filter" type="reset">Сбросить</button>
         </div>
