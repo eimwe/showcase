@@ -1,0 +1,25 @@
+.social {
+  gap: 25px;
+  color: var(--clr-unchecked);
+
+  &__link {
+    background-repeat: no-repeat;
+
+    &--vk {
+      min-width: 25px;
+      min-height: 25px;
+      padding-left: 34px;
+      line-height: 25px;
+      background-image: url(../images/icons/footer/social-vk.svg);
+      background-position-y: 6px;
+    }
+
+    &--insta {
+      min-width: 19px;
+      min-height: 19px;
+      padding-left: 27px;
+      line-height: 19px;
+      background-image: url(../images/icons/footer/social-instagram.svg);
+    }
+  }
+}
