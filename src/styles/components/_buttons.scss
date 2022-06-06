@@ -145,5 +145,13 @@
       font-size: var(--fs-medium);
       line-height: 78px;
     }
+
+    &--filter {
+      display: none;
+    }
+
+    &--loader {
+      display: none;
+    }
   }
 }

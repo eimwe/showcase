@@ -1,3 +1,32 @@
 .breadcrumbs {
   display: none;
 }
+
+@media only screen and (min-width: 1200px) {
+  .breadcrumbs {
+    display: block;
+
+    &__crumb {
+      font-size: var(--fs-small);
+      color: var(--clr-crumb);
+
+      &::after {
+        content: '/';
+        padding-left: 2px;
+        padding-right: 5px;
+      }
+
+      &:last-child {
+        
+        &::after {
+          content: none;
+        }
+      }
+
+      &--active {
+        color: var(--clr-primary);
+        pointer-events: none;
+      }
+    }
+  }
+}

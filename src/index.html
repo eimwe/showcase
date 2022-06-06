@@ -93,14 +93,14 @@
   </div>
   <main class="showcase wrapper">
     <nav class="breadcrumbs" aria-label="breadcrumbs">
-      <ol>
+      <ul class="flex-container">
         <li class="breadcrumbs__crumb">
           <a href="#">Главная</a>
         </li>
         <li class="breadcrumbs__crumb breadcrumbs__crumb--active" aria-current="page">
           <a href="#">Отопительное оборудование</a>
         </li>
-      </ol>
+      </ul>
     </nav>
     <p class="showcase__heading">
       Отопительное оборудование
@@ -296,11 +296,14 @@
             <output class="showcase__total" name="filtered-results">2394</output> товаров
           </p>
           <button class="btn btn--filter" type="button">Фильтры</button>
-          <select class="showcase__sorting" name="sort-items" id="sort-options" tabindex="2">
-            <option value="" hidden>Сортировка</option>
-            <option value="price-high">Цена: По возрастанию</option>
-            <option value="price-low">Цена: По убыванию</option>
-          </select>
+          <label for="sort-options">
+            <span class="showcase__sort-hint">Цена:</span>
+            <select class="showcase__sorting" name="sort-items" id="sort-options" tabindex="2">
+              <option value="" hidden>Сортировка</option>
+              <option value="price-high">По возрастанию</option>
+              <option value="price-low">По убыванию</option>
+            </select>
+          </label>
         </form>
         <div class="showcase__items grid-container" aria-live="polite">
           <div class="card grid-container">
