@@ -10,8 +10,8 @@
   }
 
   &__details {
-    margin-block-start: 41px;
-    margin-block-end: 52px;
+    margin-block-start: 42px;
+    margin-block-end: 54px;
   }
 
   &__title {
@@ -31,7 +31,7 @@
   }
 
   &__img {
-    transform: scale(1.2) translateY(60px) rotate(0.39deg);
+    transform: scale(1.2) translateY(58px) rotate(0.39deg);
     filter: var(--banner-shadow);
   }
 }

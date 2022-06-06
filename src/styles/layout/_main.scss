@@ -5,7 +5,7 @@
   &__heading {
     font-family: 'Euclid-Medium';
     font-size: var(--fs-lg-mob);
-    margin-top: 23px;
+    margin-top: 30px;
     margin-bottom: 0;
   }
 
@@ -41,7 +41,7 @@
   }
 
   &__sorting {
-    max-width: 124px;
+    max-width: 128px;
     border: none;
     font-family: 'Euclid-Medium';
     background-color: transparent;
@@ -50,6 +50,6 @@
   &__items {
     grid-template-columns: repeat(auto-fit, minmax(177px, 1fr));
     gap: 15px;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
   }
 }
