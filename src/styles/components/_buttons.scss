@@ -82,6 +82,10 @@
     }
   }
 
+  &--desktop-reset {
+    display: none;
+  }
+
   &--order {
     min-width: 43px;
     min-height: 43px;
@@ -152,6 +156,11 @@
 
     &--loader {
       display: none;
+    }
+
+    &--desktop-reset {
+      display: block;
+      min-width: fit-content;
     }
   }
 }

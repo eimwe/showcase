@@ -8,7 +8,7 @@ let inputLeft = document.getElementById('input-left'),
     range  = document.querySelector('.filter__range'),
     priceLeft = document.querySelector('.filter__price--left'),
     priceRight = document.querySelector('.filter__price--right'),
-    rangeLimit = 10000;
+    rangeLimit = 11000;
 
 /**
  * @function setLeftValue

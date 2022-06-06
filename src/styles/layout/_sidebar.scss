@@ -24,3 +24,19 @@
     opacity: 1;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .sidebar {
+    position: static;
+    z-index: 0;
+    padding-top: 30px;
+    border-radius: var(--radius-md);
+    opacity: 1;
+
+    &__header {
+      justify-content: space-between;
+      padding-inline: 30px;
+      margin-bottom: 60px;
+    }
+  }
+}
