@@ -25,3 +25,67 @@
     }
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .feedback {
+    order: 0;
+    padding-top: 44px;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: var(--fs-medium);
+
+    &__nav {
+      gap: 165px;
+    }
+
+    &__item {
+      display: block;
+      line-height: 24px;
+      background-size: contain;
+
+      &:not(.feedback__item--phone) {
+        display: block;
+      }
+
+      &--city {
+        min-width: 17px;
+        min-height: 24px;
+        padding-left: 39px;
+        background-image: url(../images/icons/header/location.svg);
+      }
+
+      &--phone {
+        padding-left: 36px;
+      }
+
+      &--email {
+        min-width: 27px;
+        min-height: 25px;
+        padding-left: 39px;
+        background-image: url(../images/icons/header/email-transparent.svg);
+        background-position-y: -4px;
+      }
+
+      &--request {
+        min-width: 24px;
+        min-height: 24px;
+        padding-left: 37px;
+        background-image: url(../images/icons/header/request.svg);
+      }
+
+      &--support {
+        min-width: 21.51px;
+        min-height: 22.44px;
+        padding-left: 35.26px;
+        background-image: url(../images/icons/header/support.svg);
+      }
+    }
+
+    &__title {
+
+      &--phone {
+        display: block;
+      }
+    }
+  }
+}

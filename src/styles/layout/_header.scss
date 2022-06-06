@@ -34,3 +34,25 @@
     }
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .header {
+    padding-block-end: 0;
+
+    &__container {
+      padding-top: 17px;
+      padding-bottom: 29px;
+    }
+
+    &__search {
+      position: static;
+      min-width: 850px;
+      padding-inline: 30.87px;
+      margin-left: 72px;
+    }
+
+    &__searchbar {
+      font-size: var(--fs-small);
+    }
+  }
+}

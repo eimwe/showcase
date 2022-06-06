@@ -26,3 +26,53 @@
     }
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .user {
+    order: 0;
+    margin-left: auto;
+
+    &__nav {
+      gap: 28px;
+    }
+
+    &__item {
+      cursor: pointer;
+
+      &--delivery {
+        display: block;
+        min-width: 33px;
+        min-height: 22.88px;
+        background-image: url(../images/icons/header/delivery.svg);
+      }
+
+      &--profile {
+        min-width: 27.87px;
+        min-height: 26.87px;
+      }
+  
+      &--cart {
+        position: relative;
+        min-width: 26.09px;
+        min-height: 26.09px;
+
+        &::after {
+          position: absolute;
+          top: -8px;
+          right: -10px;
+          content: '3';
+          display: block;
+          min-width: 16.12px;
+          min-height: 16.12px;
+          padding-top: 2px;
+          text-align: center;
+          font-family: 'Euclid-Bold';
+          font-size: var(--fs-mini);
+          color: var(--clr-white);
+          border-radius: var(--radius-circle);
+          background-color: var(--bg-cart-alert);
+        }
+      }
+    }
+  }
+}

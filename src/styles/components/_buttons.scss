@@ -126,3 +126,15 @@
     transform: translateX(-4px);
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .btn {
+
+    &--menu {
+      min-width: 32px;
+      min-height: 18px;
+      margin-right: 76.62px;
+      background-image: url(../images/icons/control/menu-desktop.svg);  
+    }
+  }
+}
