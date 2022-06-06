@@ -35,3 +35,42 @@
     filter: var(--banner-shadow);
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .banner {
+    position: relative;
+    min-height: 294px;
+
+    &__container {
+      grid-auto-flow: column;
+      min-height: inherit;
+    }
+
+    &__details {
+      justify-self: start;
+      max-width: 60%;
+      margin: 0;
+      text-align: left;
+    }
+
+    &__title {
+      margin-block-end: 32px;
+      line-height: initial;
+      font-size: var(--fs-maxi);
+    }
+
+    &__desc {
+      width: auto;
+      margin: 0;
+      font-size: var(--fs-medium);
+    }
+
+    &__img {
+      position: absolute;
+      top: 0;
+      left: 38%;
+      max-width: 637px;
+      transform: none;
+    }
+  }
+}

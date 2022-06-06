@@ -136,5 +136,14 @@
       margin-right: 76.62px;
       background-image: url(../images/icons/control/menu-desktop.svg);  
     }
+
+    &--action {
+      justify-self: end;
+      order: 2;
+      min-width: 282px;
+      min-height: 78px;
+      font-size: var(--fs-medium);
+      line-height: 78px;
+    }
   }
 }
