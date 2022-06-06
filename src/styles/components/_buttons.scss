@@ -162,5 +162,11 @@
       display: block;
       min-width: fit-content;
     }
+
+    &--order {
+      min-width: 82px;
+      min-height: 82px;
+      background-size: 25px;
+    }
   }
 }

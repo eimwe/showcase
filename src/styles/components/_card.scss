@@ -83,3 +83,61 @@
     }
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .card {
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+
+    &__image {
+      gap: 38px;
+      padding: 28px 28px 0 28px;
+    }
+
+    &__title {
+      font-size: var(--fs-normal);
+    }
+
+    &__action {
+      padding-left: 28px;
+      margin-top: 18px;
+    }
+
+    &__price {
+      font-size: var(--fs-medium-mob);
+
+      &::after {
+        font-size: var(--fs-xxs);
+      }
+
+      &--old {
+        margin-left: 13px;
+        font-size: var(--fs-small);
+        color: var(--bg-btn-reset);
+
+        &::before {
+          bottom: 2px;
+          min-width: 60px;
+        }
+
+        &::after {
+          font-size: 8px;
+        }
+      }
+    }
+
+    &__discount {
+      min-width: 110px;
+      min-height: 36px;
+      line-height: 36px;
+      font-size: var(--fs-small);
+  
+      &::before {
+        min-width: 14px;
+        min-height: 15px;
+        margin-right: 12px;
+        vertical-align: middle;
+      }
+    }
+  }
+}
