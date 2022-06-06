@@ -1,3 +1,42 @@
 .seo {
   display: none;
 }
+
+@media only screen and (min-width: 1200px) {
+  .seo {
+    display: block;
+    max-width: 1095px;
+    margin-inline: auto;
+    
+
+    span {
+      display: block;
+
+      &:first-child {
+        font-family: 'Euclid-Medium';
+        font-size: var(--fs-xl);
+        margin-top: 190px;
+        margin-bottom: 48px;
+      }
+
+      & ~ span {
+        font-family: 'Euclid-Medium';
+        font-size: var(--fs-lg);
+        margin-top: 60px;
+        margin-bottom: 26px;
+      }
+    }
+
+    p {
+      font-family: 'Euclid-Light';
+      font-size: var(--fs-normal);
+      line-height: 26px;
+      margin-top: 26px;
+      margin-bottom: 26px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
