@@ -93,3 +93,61 @@
     margin: 0;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .footer {
+    padding-bottom: 33;
+
+    &__top {
+      grid-auto-flow: column;
+      gap: 201px;
+      margin-bottom: 57px;
+    }
+
+    &__contacts {
+      gap: 0;
+    }
+
+    &__suggestions {
+      grid-auto-flow: column;
+      gap: 201px;
+    }
+
+    &__subheading {
+
+      &--phone {
+        margin-top: 57.11px;
+      }
+
+      &--email {
+        margin-top: 51px;
+        margin-bottom: 59px;
+      }
+
+      &--suggestion {
+        margin-bottom: 26px;
+      }
+    }
+
+    &__group {
+      line-height: 33px;
+
+      & li + li {
+        margin-top: 0;
+      }
+    }
+
+    &__bottom {
+      grid-auto-flow: column;
+      gap: 166px;
+      padding-top: 43px;
+    }
+
+    &__copyright {
+      grid-auto-flow: column;
+      align-items: center;
+      gap: 166px;
+      margin-bottom: 0;
+    }
+  }
+}
